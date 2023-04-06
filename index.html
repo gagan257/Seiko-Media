@@ -3,8 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
 	<title>Seiko Media</title>
 </head>
 <body>
@@ -19,21 +21,21 @@
 
 
 	  <section id="home">
-		<div class="container">
-		  <h1>Seiko Media</h1>
-		  <p class="tagline">Scale your eCommerce brand with <span style="color: red; font-size: 35px;">high-converting paid ads</span>, breakthrough emails, and 6 figures SMS campaigns.</p>
+		<div class="container justify-content-center">
+		  <h1><span><img src="Images/Seiko-Media-logo.png" alt="Italian Trulli"></span> Seiko Media</h1>
+		  <p class="tagline" style="color: black;">Scale your eCommerce brand with <span style="color: red; font-size: 35px;">high-converting paid ads</span>, breakthrough emails, and 6 figures SMS campaigns.</p>
 		  <div class="stats">
 			<div class="stat">
-			  <span class="value">$7.5M+</span>
-			  <span class="label">Revenue Generated</span>
+			  <span class="value" style="color: darkgoldenrod;">$7.5M+</span>
+			  <span class="label" style="color: black;">Revenue Generated</span>
 			</div>
 			<div class="stat">
-			  <span class="value">30+</span>
-			  <span class="label">Brands Served</span>
+			  <span class="value" style="color: darkgoldenrod;">30+</span>
+			  <span class="label" style="color: black;">Brands Served</span>
 			</div>
 			<div class="stat">
-			  <span class="value">$2M+</span>
-			  <span class="label">Ad Spend Managed</span>
+			  <span class="value" style="color: darkgoldenrod;">$2M+</span>
+			  <span class="label" style="color: black;">Ad Spend Managed</span>
 			</div>
 		  </div>
 		  <br>
@@ -45,40 +47,55 @@
 
 
 
-	<section id="about">
-		<h2>How Do We Achieve Breakthrough Results?</h2>
-		<p>Groundbreaking Research - We test each pillar of a successful campaign to build a rock solid foundation for a long-term profitable brand.</p>
-		<p>Moolah Creatives - We run killer creatives to keep the profitability high while stacking the winners for million dollar scaling strategies.</p>
-		<p>Continuous Scaling - After rigorous testing and optimizations, we leave no stone unturned to consistent scale our clients’ campaigns profitably.</p>
-	</section>
-
-
-
-	<section id="testimonials">
-		<h2>We are proud of our Clients’ Results</h2>
-		<p>We are not your typical agency that overpromises and under delivers.</p>
-		<p>Having utter transparency and communicating clear expectations with our clients are a part of core values.</p>
-		<p>At Seiko Media, our primary focus is growth. We only grow when our clients grow.</p>
-		<div>
-			<h3>No more iOS Tracking Issues</h3>
-			<p>At Seiko, we deploy Conversions API, tracking frameworks and 3rd party tracking softwares to get up to 95% attribution for the sales our clients get on their stores.</p>
-			<p>We make every sale count</p>
+	  <section id="about" style="background-color: black;">
+		<h1 class="text-center pb-3" style="color: white;">How Do We Achieve <u style="color: yellow;">Breakthrough Results</u>?</h1>
+		<div class="about-container">
+		  <div class="about-card">
+			<h3 style="color: red;" class="text-center">Groundbreaking Research</h3>
+			<p class="text-center">We test each pillar of a successful campaign to build a rock solid foundation for a long-term profitable brand.</p>
+		  </div>
+		  <div class="about-card">
+			<h3 style="color: darkgoldenrod;" class="text-center">Moolah Creatives</h3>
+			<p class="text-center">We run killer creatives to keep the profitability high while stacking the winners for million dollar scaling strategies.</p>
+		  </div>
+		  <div class="about-card">
+			<h3 class="text-center">Continuous Scaling</h3>
+			<p class="text-center">After rigorous testing and optimizations, we leave no stone unturned to consistently scale our clients’ campaigns profitably.</p>
+		  </div>
 		</div>
-		<div>
-			<h3>Our Unparalleled Results Speak For Themselves</h3>
-			<p>John is hitting $150K months for his Women’s Clothing Store at an insanely profitable ROAS. He came to us after trying 3 different agencies for his brand. Now he is getting his operations ready for us to scale up.</p>
-			<video controls>
+	  </section>
+	  
+	
+
+
+
+	  <section id="testimonials">
+		<div class="container">
+		  <h2>We are proud of our <span style="color: red;">Clients’ Results</span></h2>
+		  <p style="font-size: 25px; color: black;">We are not your typical agency that overpromises and under delivers. Having utter transparency and communicating clear expectations with our clients are a part of core values. At Seiko Media, our primary focus is <span style="color: green;">growth</span>. We only grow when our clients grow.</p>
+		  <div class="testimonial">
+			<h2>No more iOS Tracking Issues</h2>
+			<p style="font-size: 25px;">At Seiko, we deploy Conversions API, tracking frameworks, and 3rd party tracking software to get up to 95% attribution for the sales our clients get on their stores. We make every sale count.</p>
+		  </div>
+		  <div class="testimonial">
+			<h2>Our Unparalleled Results Speak For Themselves</h2>
+			<p style="font-size: 25px;">John is hitting $150K months for his Women’s Clothing Store at an insanely profitable ROAS. He came to us after trying 3 different agencies for his brand. Now he is getting his operations ready for us to scale up.</p>
+			<div class="video-container">
+			  <video controls>
 				<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
 				Your browser does not support the video tag.
-			</video>
+			  </video>
+			</div>
+		  </div>
 		</div>
-	</section>
+	  </section>
+	  
 
 
 
 
 
-	<main>
+	<main id="lastsection">
 		<section>
 			<h1>Want better results from same AD SPEND for your eCommerce Brand?</h1>
 			<p>Seiko Media is a performance marketing agency helping eCommerce brands scale profitably high-converting paid ads, breakthrough emails and 6 figures SMS campaigns. Even post iOS catastrophe.</p>
@@ -88,16 +105,16 @@
 				<li>$7.5+ Million Generated</li>
 				<li>30+ Brands Served</li>
 			</ul>
-			<a href="#">Speak with our team</a>
+			<a href="#" style="text-decoration: none;">Speak with our team</a>
 		</section>
 		<section>
-			<h2>How Do We Achieve Breakthrough Results?</h2>
+			<h2>How Do We Achieve <span style="color: darkgoldenrod;">Breakthrough Results?</span></h2>
 			<ol>
 				<li>Groundbreaking Research</li>
 				<p>We test each pillar of a successful campaign to build a rock solid foundation for a long-term profitable brand.</p>
-				<li>Moolah Creatives</li>
+				<li><strong>Moolah Creatives</strong></li>
 				<p>We run killer creatives to keep the profitability high while stacking the winners for million dollar scaling strategies.</p>
-				<li>Continuous Scaling</li>
+				<li><strong>Continuous Scaling</strong></li>
 				<p>After rigorous testing and optimizations, we leave no stone unturned to consistent scale our clients’ campaigns profitably.</p>
 			</ol>
 		</section>
@@ -106,7 +123,7 @@
 			<p>We are not your typical agency that overpromises and under delivers.</p>
 			<p>Having utter transparency and communicating clear expectations with our clients are a part of core values.</p>
 			<p>At Seiko Media, our primary focus is growth. We only grow when our clients grow.</p>
-			<a href="#">Schedule A FREE Audit Call Today!</a>
+			<a href="#" style="text-decoration: none;">Schedule A FREE Audit Call Today!</a>
 		</section>
 		<section>
 			<h2>No more iOS Tracking Issues</h2>
@@ -115,32 +132,45 @@
 		</section>
 		<section>
 			<h2>Our Unparalleled Results Speak For Themselves</h2>
-			<p>John is hitting $150K months for his Women’s Clothing Store at an insanely profitable ROAS. He came to us after trying 3 different agencies for his brand. Now he is getting his operations ready for us to scale up.</p>
+			<p>John is hitting <span style="color: green;">$150K</span> months for his Women’s Clothing Store at an insanely profitable ROAS. He came to us after trying 3 different agencies for his brand. Now he is getting his operations ready for us to scale up.</p>
 			<video controls>
   				<source src="video.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 			</video>
-			<a href="#">Speak with our team today</a>
-			<a href="#">Schedule A FREE Audit Call Today!</a>
+			<a href="#" style="text-decoration: none;">Speak with our team today</a>
+			<a href="#" style="text-decoration: none;">Schedule A FREE Audit Call Today!</a>
 		</section>
 		<section>
-            <h1>OUR SERVICES</h1>
+            <h1 style="color: blueviolet;">OUR SERVICES</h1>
             <h2>D2C</h2>
             <p>Getting sales with paid media is what we do best. Facebook, Google, Snapchat, Tiktok and more.</p>
-            <h2>Shopify Website Creation</h2>
+            <h2> > Shopify Website Creation</h2>
             <p>We build eCommerce websites that convert the best. Period.</p>
-            <h2>Growth Consulting</h2>
+            <h2> > Growth Consulting</h2>
             <p>Don’t want us to take over? At Seiko, we’re happy to train your team on our proven methods.</p>
-            <h2>Working with eCommerce Brands To Scale Them to 7 &amp; 8 Figures in Revenue</h2>
+            <h2> > Working with eCommerce Brands To Scale Them to 7 &amp; 8 Figures in Revenue</h2>
             <p>Would you like your Brand to be the next success story of Seiko Media?</p>
             <p>SPEAK WITH OUR TEAM TODAY</p>
             <p>Ready to get Profitable &amp; Scale?</p>
-            <p>BOOK YOUR CALL TODAY</p>
-            <hr>
-            <footer>
-              <p>Copyright © 2023 Seiko Media</p>
-            </footer>
+            <p style="color: red;">BOOK YOUR CALL TODAY</p>
         </section>
     </main>
+
+
+	<footer>
+		<div class="container">
+		  <div class="social-media">
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-facebook"></i></a>
+		  </div>
+		  <div class="copyright">
+			<p>&copy; 2023 Seiko Media. All rights reserved.</p>
+		  </div>
+		</div>
+	</footer>
+
+	<button class="rounded-pill" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+	
     </body>
 </html>

@@ -59,7 +59,7 @@ nav {
 
 /* Home Section */
 #home {
-  background-color: #f8f8f8;
+  background-color: #F2D7D5;
   padding: 5rem 1rem;
   text-align: center;
 }
@@ -130,92 +130,158 @@ nav {
 
 /* About section */
 #about {
-    background-color: #f8f8f8;
-    padding: 4rem 2rem;
+  background-color: #f8f8f8;
+  padding: 4rem 2rem;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  flex: 0 0 calc(33.33% - 1rem);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.about-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .about-card {
+    flex: 0 0 100%;
   }
-  
-  #about h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #333;
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-  
-  #about p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #555;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  @media screen and (min-width: 768px) {
-    #about {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    #about h2 {
-      font-size: 3rem;
-      text-align: left;
-      margin-bottom: 0;
-      flex: 0 0 40%;
-    }
-  
-    #about p {
-      flex: 0 0 50%;
-      text-align: left;
-      margin-bottom: 0;
-    }
-  }
+}
+
+
 
   
 
 /* Testimonials Section */
 #testimonials {
-    background-color: #f8f8f8;
-    padding: 4rem 2rem;
+  background-color: #f5f5f5;
+  padding: 4rem 2rem;
+  background-image: url(Images/background_img_2.jpg);
+}
+
+#testimonials h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #333;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#testimonials p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #666;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#testimonials .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#testimonials .testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+#testimonials .testimonial:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+#testimonials .testimonial h2:hover{
+  color: red;
+}
+
+#testimonials .testimonial h3 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #333;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#testimonials .testimonial p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #666;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#testimonials .video-container {
+  margin-top: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+#testimonials .video-container video {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+#testimonials .video-container video:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  #testimonials h2 {
+    font-size: 2rem;
   }
   
-  #testimonials h2 {
-    text-align: center;
-    margin-bottom: 2rem;
+  #testimonials .testimonial h3 {
+    font-size: 1.5rem;
   }
   
   #testimonials p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-    text-align: center;
+    font-size: 1rem;
   }
   
-  #testimonials div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+  #testimonials .testimonial {
+    padding: 1rem;
   }
-  
-  #testimonials div h3 {
-    margin-bottom: 1rem;
-  }
-  
-  #testimonials div p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-  
-  #testimonials div video {
-    margin-top: 2rem;
-    max-width: 100%;
-    height: auto;
-  }
+}
+
+
 
   
 
@@ -226,6 +292,7 @@ nav {
     padding: 50px;
     font-family: Arial, sans-serif;
     color: #333;
+    position: relative;
   }
   
   section {
@@ -269,15 +336,15 @@ nav {
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-    background-color: #007bff;
+    /* background-color: #007bff; */
     padding: 10px 20px;
     border-radius: 5px;
     margin-bottom: 20px;
   }
   
-  a:hover {
+  /* a:hover {
     background-color: #0069d9;
-  }
+  } */
   
   video {
     width: 100%;
@@ -385,7 +452,7 @@ nav {
   }
   
   main section a:hover {
-    background-color: #333;
+    /* background-color: #333; */
   }
   
   main section ol {
@@ -413,11 +480,85 @@ nav {
     height: 1px;
     background-color: #ccc;
   }
-  
+  .moving-image {
+    position: absolute; /* position the SVG absolutely to fill the main tag */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* set the z-index of the SVG to -1 to position it behind the other elements */
+}
+#lastsection{
+  background-color: lightgreen;
+}
+
+
+
+
+
+
   footer {
-    margin-top: 50px;
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
-    font-size: 14px;
-    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
   }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .social-media a {
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .social-media a:last-of-type {
+    margin-right: 0;
+  }
+  
+  .social-media i:hover {
+    color: #1DA1F2;
+  }
+  
+  .social-media i {
+    transition: color 0.2s ease-in-out;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .social-media {
+      margin-bottom: 1rem;
+    }
+    
+    .copyright {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+
+
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  #myBtn:hover {
+    background-color: #777;
+  }
+
+  
