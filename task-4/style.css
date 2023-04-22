@@ -1,0 +1,237 @@
+.confirmation {
+    background-color: rgb(206, 26, 26); /* Red background */
+    color: #fff; /* White text */
+  }
+  
+  .confirmation__title {
+    font-weight: bold;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    .faq-wrapper .col {
+      flex-basis: 100%; /* 1 div per row on small screens */
+    }
+  }
+  
+  .video-section {
+    background-color: #ffffff; /* White background */
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    margin-bottom: 30px;
+  }
+  
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .watch-more-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background-color: #ff0000; /* Red background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .video-wrapper {
+      padding-bottom: 42.5%; /* 16:9 aspect ratio for smaller screens */
+    }
+  
+    .watch-more-btn {
+      font-size: 1em;
+    }
+  }
+  
+  #section3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: solid #ff0000 2px;
+    border-top: solid #ff0000;
+    margin-bottom: 5%;
+    margin-top: 3%;
+  }
+  
+  #section3 .section-title {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    #section3 .section-title {
+      font-size: 1.5em;
+    }
+  }
+  
+  #section4 {
+    background-color: white;
+    padding: 50px 0;
+  }
+  
+  #section4 .section-title {
+    color: black;
+    text-align: center;
+  }
+  
+  #section4 hr {
+    margin-top: 50px;
+  }
+  
+  #section4 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #section4 .col {
+    flex-basis: 50%;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    #section4 .col {
+      flex-basis: 100%; /* 1 div per row on small screens */
+    }
+  }
+
+
+  /* TEST CODE 
+  .confirmation {
+    background-color: rgb(206, 26, 26);
+    color: #fff;
+  
+  .confirmation__title {
+    font-weight: bold;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    .faq-wrapper .col {
+      flex-basis: 100%; /* 1 div per row on small screens 
+    }
+  }
+  
+  .video-section {
+    background-color: #ffffff; /* White background 
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; 
+    margin-bottom: 30px;
+  }
+  
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .watch-more-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background-color: #ff0000; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .video-wrapper {
+      padding-bottom: 42.5%; 
+    }
+  
+    .watch-more-btn {
+      font-size: 1em;
+    }
+  }
+  
+  #section3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: solid #ff0000 2px;
+    border-top: solid #ff0000;
+    margin-bottom: 5%;
+    margin-top: 3%;
+  }
+  
+  #section3 .section-title {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    #section3 .section-title {
+      font-size: 1.5em;
+    }
+  }
+  
+  #section4 {
+    background-color: white;
+    padding: 50px 0;
+  }
+  
+  #section4 .section-title {
+    color: black;
+    text-align: center;
+  }
+  
+  #section4 hr {
+    margin-top: 50px;
+  }
+  
+  #section4 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #section4 .col {
+    flex-basis: 50%;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    #section4 .col {
+      flex-basis: 100%;
+    }
+  }
+  */
